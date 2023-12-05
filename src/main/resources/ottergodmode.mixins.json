@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.otter.godmode.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ClientConnectionMixin"
+  ],
+  "client": [
+    "InventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
